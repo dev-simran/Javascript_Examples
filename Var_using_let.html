@@ -1,0 +1,27 @@
+<!-- The let keyword was introduced in ES6 (2015) -->
+<!-- variable defined with let cannot be re-declared -->
+<!-- Variables defined with let must be declared before use -->
+<!-- Variables defined with let have block scope -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables declared using let</title>
+</head>
+<body>
+    <script>
+        //Can't Re-declare Example 
+        let name = "Elliot Alderson";
+        let name = 0;
+        document.write(name); //Shows errors on console can't re-declare
+
+        //can re-declare with var
+        var name1 = "Tyrell Wellick";
+        var name1 = 0;
+        document.write(name1);
+    </script>
+</body>
+</html>
