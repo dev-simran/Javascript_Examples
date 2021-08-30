@@ -23,4 +23,4 @@ document.write("When x *= y the x is = ", x *= y); //Multiply left and right ope
 document.write("<br>");
 document.write(" when x /= y then x is = ", x /=y);  // Divide left operand by right operand assign result to left
 document.write("<br>");
-document.write(" when x %= 2 the x is = ", x %= 2 ); //get the modulus of left operand divide the operand then assing the resulted modulus to the left operand
+document.write(" when x %= 2 the x is = ", x %= 2 ); //get the modulus of left operand divide the operand then assign the resulted modulus to the left operand
