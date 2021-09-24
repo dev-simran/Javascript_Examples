@@ -9,5 +9,5 @@ document.write("The Model of car is: ", Car.Model);
 document.write("<br>");
 document.write("The Condition of car is: ", Car.Condition);
 document.write("<br>");
-document.write("The Objec is: ", Car);
+document.write("The Object is: ", Car);
 
