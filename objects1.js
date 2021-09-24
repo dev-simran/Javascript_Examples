@@ -24,3 +24,7 @@ const Rahul={
 };
 
 console.log("First Name of the user is = ", Rahul.FirstName);
+
+//Acessing js objects Methods
+//While Accessing object Method use objectname+propertyname()
+console.log("Full Name of the user is = ", Rahul.FullName());
